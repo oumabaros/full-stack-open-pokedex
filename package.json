@@ -12,8 +12,8 @@
   },
   "eslintConfig": {
     "rules": {
-      "parserOptions":{
-        "sourceType":"module"
+      "parserOptions": {
+        "sourceType": "module"
       }
     }
   },
@@ -32,6 +32,7 @@
   "homepage": "https://github.com/smartlyio/fullstackopen-cicd#readme",
   "devDependencies": {
     "@babel/core": "^7.9.6",
+    "@babel/eslint-parser": "^7.22.15",
     "@babel/plugin-transform-runtime": "^7.10.0",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
@@ -41,18 +42,18 @@
     "babel-loader": "^8.1.0",
     "css-loader": "^3.5.3",
     "eslint": "7.28.0",
+    "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-jest": "^23.11.0",
+    "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
     "html-loader": "^1.1.0",
     "html-webpack-plugin": "^4.3.0",
     "jest": "^25.5.4",
+    "prettier": "^2.7.1",
     "style-loader": "^1.2.1",
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.11.0",
-    "eslint-config-prettier": "^8.5.0",
-    "eslint-plugin-prettier": "^4.2.1",
-    "prettier": "^2.7.1"
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "axios": "^0.19.2",
