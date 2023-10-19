@@ -13,3 +13,4 @@ jobs:
       - name: Say hello
         run: |
           echo "Hey Dready!"
+          ls -al
