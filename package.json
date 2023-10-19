@@ -10,6 +10,13 @@
     "eslint": "eslint './**/*.{js,jsx}'",
     "build": "webpack --mode production"
   },
+  "eslintConfig": {
+    "rules": {
+      "parserOptions":{
+        "sourceType":"module"
+      }
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/smartlyio/fullstackopen-cicd.git"
